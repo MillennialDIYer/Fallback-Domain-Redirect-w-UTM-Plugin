@@ -21,7 +21,7 @@ https://www.BillysTenneesseEmporium.com/weddings/bouquet/arrangement-[1]/?utm_so
 
 It certainly is convenient for one-time use URLS to write on the back of a business card or whatever. Or even just for your own use as as an abbreviation for any page on your website. If you're just using your short domain to make shortlinks for your WordPress site, this plugin is a great way to make YOURLS even more versatile! Plus it's easy and free.
 
-The UTM source is optional and to allow the user to see how much use they're getting out of method, and to distinguish it from direct traffic. If you use Google Analytics on your site you might find it useful. If you don't, feel free to ignore that feature.
+The UTM parameters are optional. It allows the user to see how much use they're getting out of the redirects, and to distinguish it from direct traffic. If you use Google Analytics on your site you might find it useful. If you don't, feel free to ignore that feature.
 
 Also, keep in mind that **you still get to keep using your YOURLS install like you always have**. This plugin doesn't interfere in any way with short links to existing keywords.
 
