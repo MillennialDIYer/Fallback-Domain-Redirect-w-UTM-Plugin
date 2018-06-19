@@ -10,7 +10,7 @@ What this plugin does
 
 ### Example
 
-Say your main website is: https://www.BillysTenneesseEmporium.com/
+Say your main WordPress website or store is: https://www.BillysTenneesseEmporium.com/
 
 On the other hand, the domain for your YOURLS domain is: https://BTEmp.com
 
