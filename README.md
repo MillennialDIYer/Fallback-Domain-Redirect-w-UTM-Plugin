@@ -14,7 +14,8 @@ Say your main WordPress website or store is: https://www.BillysTenneesseEmporium
 
 On the other hand, the domain for your YOURLS domain is: https://BTEmp.com
 
-If you're on the go, at an event or simply posting on a forum, a shorter easy-to-spell domain might be appreciated. Using this plugin, and without having to set up a shortlink before hand, you could make the following wildcard redirect:[BTEmp.com/weddings/bouquets/arrangement-[1]](BTEmp.com/weddings/bouquets/arrangement-[1]) ↴
+If you're on the go, at an event or simply posting on a forum, a shorter easy-to-spell domain might be appreciated. Using this plugin, and without having to set up a shortlink before hand, you could make the following wildcard redirect:
+[BTEmp.com/weddings/bouquets/arrangement-[1]](BTEmp.com/weddings/bouquets/arrangement-[1]) ↴
 
 https://www.BillysTenneesseEmporium.com/weddings/bouquet/arrangement-[1]
 
