@@ -1,14 +1,7 @@
 # Fallback-Domain-Redirect-w-UTM Plugin
-*Repository pending creation and revision for the YOURLS plugin "Fallback Domain Redirect with UTM".*
-
-This is a plugin for [YOURLS](https://github.com/YOURLS/YOURLS#readme), a self-hosted link shortening sevice.
-
-For more information on this plugin, as well as a FAQ and other information, please see the [plugin Wiki](https://github.com/MillennialDIYer/Fallback-Domain-Redirect-w-UTM-Plugin/wiki "plugin Wiki").
-
 Description
 -----------
-This plugin allows your YOURLS site to work double-duty. While still allowing you to create shortlinks as normal, it also allows you to to use the domain of your link shortener as a wildcard redirect to your main site.
-
+This [YOURLS](https://github.com/YOURLS/YOURLS#readme) plugin allows your YOURLS site to work double-duty. While still allowing you to create shortlinks as normal, it also allows you to to use the domain of your link shortener as a wildcard redirect to your main site.
 
 ###  What this plugin does
 - **Redirects the original URL to the fallback domain like a wildcard redirect**
@@ -18,22 +11,20 @@ This plugin allows your YOURLS site to work double-duty. While still allowing yo
 
 ##### Example
 
-Say your main website is
-https://www.BillysTenneesseEmporium.com/
+Say your main website is: https://www.BillysTenneesseEmporium.com/
 
-On the other hand, the domain for your YOURLS domain is:
-https://BTEmp.com
+On the other hand, the domain for your YOURLS domain is: https://BTEmp.com
 
 If you're on the go, at an event or simply posting on a forum, a shorter easy-to-spell domain might be appreciated. Using this plugin, and without having to set up a shortlink before hand, you could make the following wildcard redirect:
 [BTEmp.com/weddings/bouquets/arrangement-[1]](BTEmp.com/weddings/bouquets/arrangement-[1] "BTEmp.com/weddings/bouquets/arrangement-[1]")
+
 ⇓
+
 [https://www.BTEmp.com.com/weddings/bouquet/arrangement-[1]/?utm_source=yourls&utm_medium=short_link](https://www.BTEmp.com.com/weddings/bouquet/arrangement-[1]/?utm_source=yourls&utm_medium=short_link "https://www.BTEmp.com.com/weddings/bouquet/arrangement-[1]/?utm_source=yourls&utm_medium=short_link")
 
 It certainly is convenient for one-time use URLS to write on the back of a business card or whatever. The UTM source is optional and to allow the user to see how much use they're getting out of method, and to distinguish it from direct traffic.
 
 Also, keep in mind that **you still get to keep using your YOURLS install like you always have**. This plugin doesn't interfere in any way with short links to existing keywords.
-
-For more specific information, check out the [wiki](https://github.com/MillennialDIYer/Fallback-Domain-Redirect-w-UTM-Plugin/wiki "plugin Wiki").
 
 Installation
 ------------
@@ -49,7 +40,9 @@ Requirements
 1. This plugin was built on YOURLS v1.7.2.
 2. This plugin will work best with PHP 5.4 or greater
 
-For more info, please check the [plugin Wiki](../wiki "plugin Wiki").
+For more info
+------------
+For additional details on this plugin, as well as a detailed FAQ, please check the [plugin Wiki](../wiki "plugin Wiki").
 
 License
 -------
