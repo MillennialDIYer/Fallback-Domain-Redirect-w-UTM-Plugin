@@ -8,7 +8,7 @@ What this plugin does
 - Optional - Removes any UTM parameters if present before redirecting to the fallback domain.
 - If the sho.rt keyword exists, it doesn't interfere. You can keep using your link shortener as you always have.
 
-##### Example
+### Example
 
 Say your main website is: https://www.BillysTenneesseEmporium.com/
 
@@ -27,7 +27,7 @@ It certainly is convenient for one-time use URLS to write on the back of a busin
 
 Also, keep in mind that **you still get to keep using your YOURLS install like you always have**. This plugin doesn't interfere in any way with short links to existing keywords.
 
-##### Why add UTM Parameters?
+### Why add UTM Parameters?
 
 It's just the cherry on top. You don't have to use them if they don't provide any value to you. It's purpose is to distinguish people using that link from direct traffic. If you want to know how much use you're getting out of these redirects, you'd be able to see how many people clicked or typed-in your short link. This will help you better assess if the cost and hassle of maintaining an extra domain is worth it, as well as just for your own statistical purposes. There is little to no downside to using them, and the UTM parameters will dissappear from the URL as soon as the visitor clicks any link on your site.
 
