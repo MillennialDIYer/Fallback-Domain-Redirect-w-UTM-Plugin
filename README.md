@@ -17,7 +17,7 @@ On the other hand, the domain for your YOURLS domain is: https://BTEmp.com
 
 If you're on the go, at an event or simply posting on a forum, a shorter easy-to-spell domain might be appreciated. Using this plugin, and without having to set up a shortlink before hand, you could make the following wildcard redirect:
 BTEmp.com/weddings/bouquets/arrangement-[1] ↴
-https://www.BillysTenneesseEmporium.com/weddings/bouquet/arrangement-[1]/?utm_source=BTEmp.com&utm_medium=YOURLS
+https://www.BillysTenneesseEmporium.com/weddings/bouquet/arrangement-[1]/?utm_source=BTEmp.com&utm_medium=yourls
 
 It certainly is convenient for one-time use URLS to write on the back of a business card or whatever. Or even just for your own use as as an abbreviation for any page on your website. If you're just using your short domain to make shortlinks for your WordPress site, this plugin is a great way to make YOURLS even more versatile! Plus it's easy and free.
 
