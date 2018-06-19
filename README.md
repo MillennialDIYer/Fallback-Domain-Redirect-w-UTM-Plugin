@@ -4,9 +4,9 @@ Description
 This [YOURLS](https://github.com/YOURLS/YOURLS#readme) plugin allows your YOURLS site to work double-duty. While still allowing you to create shortlinks as normal, it also allows you to use the domain of your link shortener as a wildcard redirect to your main site.
 
 ###  What this plugin does
-- **Redirects the original URL to the fallback domain like a wildcard redirect**
-- **Adds UTM parameters** (optional) - utm_source, utm_medium & utm_campaign can be set and added upon redirect to the fallback domain.
-- Removes any UTM parameters if present before redirecting to the fallback domain. (Optional)
+- **Redirects the original URL to the fallback domain like a wildcard redirect**.
+- Optional - **Adds UTM parameters** - utm_source, utm_medium & utm_campaign can be set and added upon redirect to the fallback domain.
+- Optional - Removes any UTM parameters if present before redirecting to the fallback domain.
 - If the sho.rt keyword exists, it doesn't interfere.
 
 ##### Example
