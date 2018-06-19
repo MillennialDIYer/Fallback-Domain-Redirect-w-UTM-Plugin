@@ -1,7 +1,7 @@
 # Fallback Domain Redirect with UTM Parameters Plugin
 Description
 -----------
-This [YOURLS](https://github.com/YOURLS/YOURLS#readme) plugin allows your YOURLS site to work double-duty. While still allowing you to create shortlinks as normal, it also allows you to to use the domain of your link shortener as a wildcard redirect to your main site.
+This [YOURLS](https://github.com/YOURLS/YOURLS#readme) plugin allows your YOURLS site to work double-duty. While still allowing you to create shortlinks as normal, it also allows you to use the domain of your link shortener as a wildcard redirect to your main site.
 
 ###  What this plugin does
 - **Redirects the original URL to the fallback domain like a wildcard redirect**
