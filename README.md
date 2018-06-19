@@ -40,8 +40,7 @@ Installation
 1. Go to the Plugin's settings page and configure it. At minimum, selecting a fallback domain is required for the plugin to function. Selecting UTM parameters is completely optional and unrequired.
 1. Start using it and go on with your life.
 
-Requirements
-------------
+### Requirements
 1. This plugin was built on YOURLS v1.7.2.
 2. This plugin will work best with PHP 5.4 or greater
 
