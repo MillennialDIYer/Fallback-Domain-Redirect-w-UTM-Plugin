@@ -43,7 +43,7 @@ For additional details on this plugin, as well as a detailed FAQ, please check t
 
 License
 -------
-*MIT License*: In other words, do whatever you want with it. Just don't try to hold me accountable if you're unhappy with the results.
+*MIT License* - In other words, do whatever you want with it. Just don't try to hold me accountable if you're unhappy with the results.
 
 Found it useful?
 ------------
