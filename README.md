@@ -16,8 +16,7 @@ Say your main website is: https://www.BillysTenneesseEmporium.com/
 On the other hand, the domain for your YOURLS domain is: https://BTEmp.com
 
 If you're on the go, at an event or simply posting on a forum, a shorter easy-to-spell domain might be appreciated. Using this plugin, and without having to set up a shortlink before hand, you could make the following wildcard redirect:
-BTEmp.com/weddings/bouquets/arrangement-[1]
-⇓
+BTEmp.com/weddings/bouquets/arrangement-[1] ↴
 https://www.BillysTenneesseEmporium.com/weddings/bouquet/arrangement-[1]/?utm_source=BTEmp.com&utm_medium=YOURLS
 
 It certainly is convenient for one-time use URLS to write on the back of a business card or whatever. The UTM source is optional and to allow the user to see how much use they're getting out of method, and to distinguish it from direct traffic.
