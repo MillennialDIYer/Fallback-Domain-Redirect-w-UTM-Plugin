@@ -9,11 +9,11 @@
 // Start YOURLS engine
 require_once( dirname(__FILE__) . '/includes/load-yourls.php' );
 
-// Save the incoming URL path to preserve any query string.
-fdr_save_uri() ;
+// Save the incoming URL path to preserve any query string
+fdr_save_uri();
 
-// Run fallback domain redirection function and redirect as appropriate.
-fdr_fallback_redirect() ;
+// Run fallback domain redirection function and redirect as appropriate
+fdr_fallback_redirect();
 
 exit;
 
