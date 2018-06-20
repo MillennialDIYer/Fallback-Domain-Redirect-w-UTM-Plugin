@@ -11,7 +11,6 @@ Author:      Millennial DIYer
 Author URI:  https://MillennialDIYer.com
 */
 
-
 // Die if no direct call to stop external access to file
 if( !defined( 'YOURLS_ABSPATH' ) ) die();
 
@@ -88,7 +87,6 @@ function fdr_config_add_page()
 // Display Plugin Configuration Page
 function fdr_config_do_page()
 {
-
     // Submit values on button press
     if( isset( $_POST['submit'] ) )
         fdr_config_update_option();
@@ -133,6 +131,7 @@ function fdr_config_do_page()
     </form>
 HTML;
 }
+
 
 // Update the plugin settings in the database with the values from the settings form
 function fdr_config_update_option()
