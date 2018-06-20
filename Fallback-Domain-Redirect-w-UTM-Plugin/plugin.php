@@ -18,10 +18,8 @@ if( !defined( 'YOURLS_ABSPATH' ) ) die();
 yourls_add_action( 'pre_load_template', 'fdr_save_uri' );
 function fdr_save_uri()
 {
-    // Start session to conserve incoming URL path across pages
-    session_start();
-    $fdr_loader_uri = $_SERVER['REQUEST_URI'] ;
-    $_SESSION[ 'fdr_loader_uri' ] = $fdr_loader_uri;
+    session_start();  // Start session to conserve incoming URL path across pages
+    $_SESSION[ 'fdr_loader_uri' ] = $_SERVER['REQUEST_URI'] ;
 }
 
 
