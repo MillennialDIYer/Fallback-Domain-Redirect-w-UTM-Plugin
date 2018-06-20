@@ -1,12 +1,12 @@
 <?php
 /*
 Plugin Name: Fallback Domain Redirect with UTM
-Plugin URI:  N/A
+Plugin URI:  https://github.com/MillennialDIYer/Fallback-Domain-Redirect-w-UTM-Plugin
 Description: This a plugin for YOURLS, a link shortening script. This plugin wildcard redirects any incoming URL paths to a fallback domain, in case there isn't a match for your short URL.
              If set up, it is also capable of adding UTM parameters in the process.
              This allows the short domain to be used as an alternative for any existing URL of the fallack domain.
              NOTE - This plugin does NOT work if YOURLS is installed in a subfolder.
-Version:     0.3
+Version:     1.0.0
 Author:      Millennial DIYer
 Author URI:  https://MillennialDIYer.com
 */
