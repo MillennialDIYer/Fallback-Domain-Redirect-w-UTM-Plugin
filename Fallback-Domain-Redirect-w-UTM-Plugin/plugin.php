@@ -79,7 +79,7 @@ yourls_add_action( 'plugins_loaded', 'fdr_config_add_page' );
 function fdr_config_add_page()
 {
     // parameters: ( page slug, page title, page display function )
-    yourls_register_plugin_page( 'fallback_url_config', 'Fallback Domain Redirect with UTM Plugin Config', 'fdr_config_do_page' );
+    yourls_register_plugin_page( 'fallback_url_config', 'Fallback Domain Redirect with UTM Parameters', 'fdr_config_do_page' );
 }
     
 // Display Plugin Configuration Page
