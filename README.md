@@ -32,14 +32,14 @@ Also, keep in mind that **you still get to keep using your YOURLS install like y
 
 ### Why add UTM Parameters?
 
-It's just the cherry on top. You don't have to use them if they don't provide any value to you. It's purpose is to distinguish people using that link from direct traffic. If you want to know how much use you're getting out of these redirects, you'd be able to see how many people clicked or typed-in your short link. This will help you better assess if the cost and hassle of maintaining an extra domain is worth it, as well as just for your own statistical purposes. There is little to no downside to using them, and the UTM parameters will dissappear from the URL as soon as the visitor clicks any link on your site.
+It's just the cherry on top. You don't have to use them if they don't provide any value to you. Its purpose is to distinguish people using that link from direct traffic. If you want to know how much use you're getting out of these redirects, you'd be able to see how many people clicked or typed-in your short link. This will help you better assess if the cost and hassle of maintaining an extra domain is worth it, as well as just for your own statistical purposes. There is little to no downside to using them, and the UTM parameters will dissappear from the URL as soon as the visitor clicks any link on your site.
 
 Installation
 ------------
 1. Download the [Fallback Domain-Redirect-w-UTM  plugin](../archive/master.zip "Fallback Domain-Redirect-w-UTM  plugin")
 2. Drag or move the folder named `fallback-domain-redirect-w-UTM` to the `/user/plugins` folder in your YOURLS installation. Make sure there is a file named `plugin.php` inside.
-3. Move the ` index.html` file to the root directory of your domain, you want the homepage to also redirect. 
-4. Go to the Plugins administration page ( *eg* `http://sho.rt/admin/plugins.php` ) and activate the plugin.
+3. Move the ` index.html` file to the root directory of your domain, if you also want the homepage to redirect. 
+4. Go to the Plugins administration page ( *eg.:* `http://sho.rt/admin/plugins.php` ) and activate the plugin.
 5. Go to the Plugin's settings page and configure it. At minimum, selecting a fallback domain is required for the plugin to function. Selecting UTM parameters is completely optional and unrequired.
 6. Start using it and go on with your life.
 
