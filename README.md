@@ -50,7 +50,7 @@ Installation
 
 For more info
 ------------
-For additional details on this plugin, as well as a detailed FAQ, please check the [plugin Wiki](../wiki "plugin Wiki").
+For additional details on this plugin, as well as a detailed FAQ, please check the [plugin Wiki](../wiki "plugin Wiki"). It always sucks to have to install a plugin or program just to find out if it does what you want it to. There you'll see all the gritty details, to better understand if this plugin is right for you.
 
 License
 -------
