@@ -1,11 +1,11 @@
 [![Fallback Domain Redirect with UTM Parameters Plugin](https://millennialdiyer.com/wp1/wp-content/uploads/2018/06/Fallback-Domain-Redirect-with-UTM-Parameters-Title-Thumbnail.jpg#)](https://github.com/MillennialDIYer/Fallback-Domain-Redirect-w-UTM-Plugin/)
 
 # Fallback Domain Redirect with UTM Parameters Plugin
-This light-weight plugin for [YOURLS](https://github.com/YOURLS/YOURLS#readme) allows your link-shortener to work double-duty. While still being able to create shortlinks as normal, it also allows you to use the domain of your URL shortener as a wildcard redirect to your main site, without having to set up the link beforehand. It will redirect links automatically.
+This light-weight plugin for [YOURLS](https://github.com/YOURLS/YOURLS#readme) allows your link-shortener to work double-duty. While still being able to create shortlinks as normal, it also allows you to use the domain of your URL shortener as a wildcard redirect to your main site. Without having to set up the link beforehand.
 
 What this plugin does
 ------------
-- **Redirects the original URL to the fallback domain like a wildcard redirect**.
+- **Redirects the original URL path to the fallback domain like a wildcard redirect**.
 - Optional - **Adds UTM parameters** - utm_source, utm_medium & utm_campaign can be added upon redirect to the fallback domain.
 - Optional - Removes any UTM parameters if present before redirecting to the fallback domain.
 - If the sho.rt keyword exists, it doesn't interfere. You can keep using your link shortener as you always have.
@@ -26,7 +26,7 @@ Or, it can also add [UTM parameters](https://en.wikipedia.org/wiki/UTM_parameter
 
 https://www.BillysTenneesseEmporium.com/weddings/bouquet/arrangement-[1]/?utm_source=BTEmp.com&utm_medium=yourls&utm_campaign=business_card
 
-It certainly is convenient for one-time use URLS to write on the back of a business card or whatever. Or even just for your own use as as an abbreviation for any page on your website. If you're just using your short domain to make shortlinks for your WordPress site, this plugin is a great way to make YOURLS even more versatile! Plus it's quick to set up and free.
+It certainly is convenient for one-time use URLS to write on the back of a business card or whatever. Or even just for your own benefit as as an abbreviation for any page on your website. Such as to directly go to frequently visited pages like `/contact/` or `/login/`. If you're just using your short domain to make shortlinks for your blog, this plugin is a great way to make YOURLS even more versatile! Plus it's quick to set up and free to use.
 
 Also, keep in mind that **you still get to keep using your YOURLS install like you always have**. This plugin doesn't interfere in any way with short links to existing keywords.
 
