@@ -105,22 +105,23 @@ function fdr_config_do_page()
     
     // Settings Form    
     echo <<<HTML
-    <h2>Fallback Domain Redirect with UTM - Plugin Configuration</h2>
+    <h2><center>Fallback Domain Redirect with UTM Parameters - Plugin Configuration</center></h2>
     <hr>
     <h3>Fallback Domain</h3>
-    <p>Here you can configure the Domain to wildcard-redirect to, in case the keyword is not found in the database. This plugin will not function a fallback domain configured.</p>
+    <p>Here you can configure the domain to wildcard-redirect to, used in cases where a keyword doesn't exist in the database. This plugin will not function without a fallback domain configured. 
+    Once it is set, any inexistant folders, files or URL paths will automatically be redirected to the equivalent location at the fallback domain.</p>
     <form method="post" > 
-    <p><label for="fdr_fallback_dom">Domain to wildcard redirect to</label> <input type="text" id="fdr_fallback_dom" name="fdr_fallback_dom" value="$fdr_fallback_dom" size="40" /></p>
+    <p><label for="fdr_fallback_dom"><strong>Domain to wildcard-redirect to:</strong></label> <input type="text" id="fdr_fallback_dom" name="fdr_fallback_dom" value="$fdr_fallback_dom" size="40" /></p>
     <p><strong>Note</strong> - Please include protocol. For example: <strong>https://</strong>example.com </p>
     <hr>
     <h3>UTM Parameters - Optional</h3>
-    <p>The purpose of the following UTM parameters is simply added information in <a href="https://support.google.com/analytics/answer/1033863#parameters">Google Analytics</a>. Its use is optional.
-    If you don't use Google Analytics just leave all boxes empty.</p>
-    <p><label for="fdr_utm_source">utm_source=</label> <input type="text" id="fdr_utm_source" name="fdr_utm_source" value="$fdr_utm_source" size="40" /></p>
-    <p><label for="fdr_utm_medium">utm_medium=</label> <input type="text" id="fdr_utm_medium" name="fdr_utm_medium" value="$fdr_utm_medium" size="40" /></p>
-    <p><label for="fdr_utm_campaign">utm_campaign=</label> <input type="text" id="fdr_utm_campaign" name="fdr_utm_campaign" value="$fdr_utm_campaign" size="40" /></p>
-    <p><strong>Note</strong> - To use UTM parameters, you must have set a fallback domain above. Also, if you choose to set UTM parameters, only <em>utm_source</em> is truly necessary. 
-    The rest are encouraged but not required. You can/should leave the medium and campaign blank if they do not fit your use scenario. However, you cannot configure the other UTM parameters without setting a <em>utm_source</em>.</p>
+    <p>The purpose of the following UTM parameters is simply added information in <a href="https://support.google.com/analytics/answer/1033863#parameters">Google Analytics</a>. Its use is completely optional.
+    If you don't use Google Analytics, just leave all the boxes empty.</p>
+    <p><label for="fdr_utm_source"><strong>utm_source=</strong></label> <input type="text" id="fdr_utm_source" name="fdr_utm_source" value="$fdr_utm_source" size="40" /></p>
+    <p><label for="fdr_utm_medium"><strong>utm_medium=</strong></label> <input type="text" id="fdr_utm_medium" name="fdr_utm_medium" value="$fdr_utm_medium" size="40" /></p>
+    <p><label for="fdr_utm_campaign"><strong>utm_campaign=</strong></label> <input type="text" id="fdr_utm_campaign" name="fdr_utm_campaign" value="$fdr_utm_campaign" size="40" /></p>
+    <p><strong>Note</strong> - To use UTM parameters, you must have first set a fallback domain above. Also, if you choose to set UTM parameters, only <em>utm_source</em> is truly necessary. 
+    The rest are encouraged but not required. You can/should leave the medium or campaign boxes blank if they do not fit your scenario. However, you cannot configure the other UTM parameters without setting a <em>utm_source</em>.</p>
     <hr>
     <p><strong>Redirection example:</strong></p>
     <center><p><em>$fdr_example</em></p></center>
