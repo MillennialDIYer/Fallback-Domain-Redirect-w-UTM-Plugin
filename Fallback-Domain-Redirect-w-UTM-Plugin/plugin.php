@@ -6,7 +6,7 @@ Description: This a plugin for YOURLS, a link shortening script. This plugin wil
              If set up, it is also capable of adding UTM parameters in the process.
              This allows the short domain to be used as an alternative for any existing URL of the fallack domain.
              NOTE - This plugin does NOT work if YOURLS is installed in a subfolder.
-Version:     1.0.0
+Version:     1.0
 Author:      Millennial DIYer
 Author URI:  https://MillennialDIYer.com
 */
