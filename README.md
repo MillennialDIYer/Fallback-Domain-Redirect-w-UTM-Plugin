@@ -44,9 +44,9 @@ Installation
 6. Start using it and go on with your life.
 
 ### Requirements
-1. This plugin was built on YOURLS v1.7.2.
-2. This plugin will work best with PHP 5.4 or greater.
-3. This plugin requires YOURLS to be installed in the domain root. As opposed to in a subfolder like `/YOURLS/`.
+1. **This plugin requires YOURLS to be installed in the domain root**. As opposed to in a subfolder like `/YOURLS/`.
+2. This plugin was built on YOURLS v1.7.2.
+3. This plugin will work best with PHP 5.4 or greater.
 
 For more info
 ------------
