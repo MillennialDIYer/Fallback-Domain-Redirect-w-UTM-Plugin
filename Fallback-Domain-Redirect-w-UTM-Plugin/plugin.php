@@ -7,6 +7,7 @@ Description: This a plugin for YOURLS, a link shortening script. This plugin wil
              This allows the short domain to be used as an alternative for any existing URL of the fallack domain.
              NOTE - This plugin does NOT work if YOURLS is installed in a subfolder.
 Version:     1.0
+Last Update: 2018.06.23
 Author:      Millennial DIYer
 Author URI:  https://MillennialDIYer.com
 */
