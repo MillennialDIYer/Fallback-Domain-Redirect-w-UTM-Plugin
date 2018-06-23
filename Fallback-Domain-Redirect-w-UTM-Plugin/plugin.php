@@ -127,6 +127,8 @@ function fdr_config_do_page()
     <center><p><em>$fdr_example</em></p></center>
     <hr>
     <center><p><input type="submit" value="Update values" name="submit" /></p></center>
+    <hr>
+    <center><p>To see if this plugin has any updates, please visit the <a href="https://github.com/MillennialDIYer/Fallback-Domain-Redirect-w-UTM-Plugin/">official page</a>.</p></center>
     </form>
 HTML;
 }
