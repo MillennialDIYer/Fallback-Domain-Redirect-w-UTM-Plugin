@@ -2,9 +2,9 @@
 /*
 Plugin Name: Fallback Domain Redirect with UTM
 Plugin URI:  https://github.com/MillennialDIYer/Fallback-Domain-Redirect-w-UTM-Plugin
-Description: This a plugin for YOURLS, a link shortening script. This plugin wildcard redirects any incoming URL paths to a fallback domain, in case there isn't a match for your short URL.
+Description: This is a plugin for YOURLS, a link shortening script. This plugin wildcard-redirects any incoming URL paths to a fallback domain, in case there isn't a match for your short URL.
              If set up, it is also capable of adding UTM parameters in the process.
-             This allows the short domain to be used as an alternative for any existing URL of the fallack domain.
+             This allows the short domain to be used as an alternative for any existing URL at the fallback domain.
              NOTE - This plugin does NOT work if YOURLS is installed in a subfolder.
 Version:     1.0
 Author:      Millennial DIYer
@@ -29,7 +29,7 @@ yourls_add_action( 'redirect_keyword_not_found', 'fdr_fallback_redirect' );
 // Run the fallback domain redirect if the loader fails to load (unexpected characters in URI, etc)
 yourls_add_action( 'loader_failed', 'fdr_fallback_redirect' );
 
-// fdr_fallback_redirect is the function that redirects the inexistant URL path to the fallback domain
+// fdr_fallback_redirect is the function that redirects the inexistent URL path to the fallback domain
 function fdr_fallback_redirect()
 {
     // Check if the plugin is active and a fallback domain set. If so, perform the redirect.
@@ -43,7 +43,7 @@ function fdr_fallback_redirect()
         $fdr_fallback_dom = yourls_get_option( 'fdr_fallback_dom' );
         $fdr_utm_param = yourls_get_option( 'fdr_utm_param' );
         
-        // Retreive incoming URL path via the value saved in the sessionsession
+        // Retrieve incoming URL path via the value saved in the session
         $mod_uri = $_SESSION[ 'fdr_loader_uri' ];
         
         // Check if UTM Parameters are actually set
@@ -52,7 +52,7 @@ function fdr_fallback_redirect()
             // Checks if the incoming URL path already contained a query string
             if ( strpos( $mod_uri, '?' ) === false )
             {
-                // If there was no query string, make there's a slash and add a '?' at the end to start one.
+                // If there was no query string, make sure there's a slash and add a '?' at the end to start one.
                 $mod_uri = rtrim( $mod_uri , "/" ) . "/" ;
                 $mod_uri = $mod_uri . '?' . $fdr_utm_param ;
             }
@@ -109,7 +109,7 @@ function fdr_config_do_page()
     <hr>
     <h3>Fallback Domain</h3>
     <p>Here you can configure the domain to wildcard-redirect to, used in cases where a keyword doesn't exist in the database. This plugin will not function without a fallback domain configured. 
-    Once it is set, any inexistant folders, files or URL paths will automatically be redirected to the equivalent location at the fallback domain.</p>
+    Once it is set, any inexistent folders, files or URL paths will automatically be redirected to the equivalent location at the fallback domain.</p>
     <form method="post" > 
     <p><label for="fdr_fallback_dom"><strong>Domain to wildcard-redirect to:</strong></label> <input type="text" id="fdr_fallback_dom" name="fdr_fallback_dom" value="$fdr_fallback_dom" size="40" /></p>
     <p><strong>Note</strong> - Please include protocol. For example: <strong>https://</strong>example.com </p>
