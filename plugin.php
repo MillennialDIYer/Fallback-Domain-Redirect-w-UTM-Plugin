@@ -33,7 +33,7 @@ yourls_add_action( 'loader_failed', 'fdr_fallback_redirect' );
 function fdr_fallback_redirect()
 {
     // Check if the plugin is active and a fallback domain set. If so, perform the redirect.
-    if( yourls_is_active_plugin( 'fallback-domain-redirect-w-utm/plugin.php' ) && ( yourls_get_option( 'fdr_fallback_dom' ) != "" ) )
+    if( yourls_is_active_plugin( 'Fallback-Domain-Redirect-w-UTM-Plugin/plugin.php' ) && ( yourls_get_option( 'fdr_fallback_dom' ) != "" ) )
     {  
         // Check if a session is already started, and if not, start one
         if (session_status() == PHP_SESSION_NONE)
