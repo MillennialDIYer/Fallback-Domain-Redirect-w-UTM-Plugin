@@ -1,6 +1,6 @@
 Installation
 ------------
-1. Download the Fallback Domain-Redirect-w-UTM plugin folder.
+1. Download the Fallback Domain Redirect with UTM plugin folder on the [main page](https://github.com/MillennialDIYer/Fallback-Domain-Redirect-w-UTM-Plugin).
 2. Drag or move the folder named `fallback-domain-redirect-w-UTM` to the `/user/plugins` folder in your YOURLS installation. Make sure there is a file named `plugin.php` inside the folder.
 3. Move the ` index.html` file to the root directory of your domain, if you also want the homepage to redirect. 
 4. Go to the Plugins administration page ( *eg*.: `http://sho.rt/admin/plugins.php` ) and activate the plugin.
